@@ -1,0 +1,158 @@
+* {
+    /* border: crimson 1px solid; */
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0 100px;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right-links{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    gap: 20px;
+    
+}
+li{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-container{
+    display: flex;
+    padding: 5px 100px 75px 100px;
+    gap: 50px;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 30%;
+
+}
+
+.left-container, .right-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 100px;
+}
+
+.hero-heading{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+.left-container p{
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px;
+    margin: 0;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
+.right-container img{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 200px;
+    background-color: #E5E7EB;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    padding: 5px 100px 75px 100px;
+}
+
+.content-heading{
+    padding: 16px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 200px;
+    width: 150px;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.text-container{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 100px;
+}
+
+.text-container>.text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.text-container>.quoter{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sign-container{
+    height: 15%;
+}
+
+.footer{
+    height: 5%;
+
+}
