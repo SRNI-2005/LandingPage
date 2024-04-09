@@ -1,6 +1,7 @@
 * {
     /* border: crimson 1px solid; */
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 body{
@@ -16,6 +17,7 @@ body{
     align-items: center;
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 800;
 }
 
 .right-links{
@@ -87,7 +89,7 @@ button{
     display: flex;
     flex-direction: column;
     height: 25%;
-    padding: 5px 100px 75px 100px;
+    margin: 5px 0px 100px 0px;
 }
 
 .content-heading{
@@ -143,16 +145,47 @@ button{
 
 }
 
-.text-container>.quoter{
-    display: flex;
-    justify-content: flex-end;
-}
+
+
+
 
 .sign-container{
+    display: flex;
     height: 15%;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 100px 0px;
 }
 
+.container{
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    align-items: center;
+    gap: 100px;
+}
+.sign-content>.sign-header{
+    color: #E5E7EB;
+    font-weight: 800;
+
+}
+.sign-content>.sign-text{
+    color: #E5E7EB;
+
+}
+
+.container> button{
+    border-color: #F9FAF8;
+    width: 150px;
+}
 .footer{
     height: 5%;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.footer> p{
+    color: #E5E7EB;
 }
