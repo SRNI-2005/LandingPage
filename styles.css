@@ -1,14 +1,12 @@
 * {
     /* border: crimson 1px solid; */
     box-sizing: border-box;
-    border-radius: 10px;
 }
 
 body{
     display: flex;
     flex-direction: column;
     margin: 0px;
-    padding: 0 100px;
 }
 
 
@@ -163,6 +161,7 @@ button{
     padding: 50px 100px;
     align-items: center;
     gap: 100px;
+    border-radius: 10px;
 }
 .sign-content>.sign-header{
     color: #E5E7EB;
